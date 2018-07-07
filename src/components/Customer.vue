@@ -161,6 +161,11 @@
     justify-content: space-between;
     margin: 0 0 20px 0;
     .switch-view-reviews{
+      @media screen and (max-width: 396px) {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      }
       a{
         color: $link;
         font-size: 14px;
