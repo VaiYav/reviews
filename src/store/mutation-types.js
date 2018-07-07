@@ -1,0 +1,2 @@
+export const FETCH_CUSTOMER = 'FETCH_CUSTOMER'
+export const SEND_REVIEW = 'SEND_REVIEW'
